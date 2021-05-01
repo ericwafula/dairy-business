@@ -1,14 +1,18 @@
+/* Removes white space in html file */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* ##### HEADER ###### */
+/* Styles the header */
 .header{
     background-color: #49F2B6;
     display: flex;
     justify-content: space-between;
 }
 
+/* Styles the heading */
 .site-heading{
     color: #1768D3;
     font-size: 48px;
@@ -17,6 +21,7 @@
     padding-bottom: 40px;
 }
 
+/* Creates a circle */
 .circle{
     background-color: #1768D3;
     width: 400px;
@@ -26,3 +31,4 @@
     margin-right: -60px;
     margin-bottom: -300px;
 }
+
