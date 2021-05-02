@@ -10,6 +10,21 @@ let totalLitres = 0;
 let week = 7;
 let year = 365;
 
+// Gets the button element from the html file and stores it
+let button = document.getElementById("calculate");
+
+// gets the sheds output text container in the html file and stores it
+let shedsOutput = document.getElementById("sheds-output");
+
+// gets the weekly/yearly income's container paragraph element and stores it
+let weeklyIncome = document.getElementById("weekly-income");
+
+// gets the monthly income's paragraph and stores it
+let monthlyIncome = document.getElementById("monthly-income");
+
+
+
+
 // Calculates total production in litres per day
 let totalProduction = function(){
     for (let i = 0; i < shedsProduction.length; i++){
