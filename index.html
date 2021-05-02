@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type= "text/css" href="style.css">
-    <script type="text/javascript" src="main.js"></script>
     <title>Dairy Business</title>
 </head>
 <body>
@@ -27,29 +26,30 @@
         <!-- Left inner section -->
         <div class="left">
             <h1>Track your total output</h1>
-            <button id="calculate">Calculate</button>
+            <button id="calculate" onclick="totalProduction()">Calculate</button>
+            <input type="text"  id="input">
             <p>Total Daily Production in your</p>
             <p>Sheds</p>
 
             <!-- Sheds output container -->
-            <div class="sheds-output-container">
-                <p id="sheds-output"></p>
+            <div class="sheds-output-container" id="sheds-output-container">
+                
             </div>
         </div>
         <!-- Right inner section -->
         <div class="right">
             <p>Weekly/Yearly Income</p>
             <!-- weekly/yearly income output inner container -->
-            <div class="weekly-income-output">
-                <p id="weekly-income"></p>
+            <div class="weekly-income-output" id="weekly-income-output">
+                
             </div>
             <p>Total monthly income in a leap year</p>
             <!-- Monthly income output container -->
-            <div class="monthly-income-container">
-                <p id="monthly-income"></p>
+            <div id="monthly-income-container" class="monthly-income-container">
             </div>
         </div>
 
     </div>
+<script src="main.js"></script>
 </body>
 </html>
