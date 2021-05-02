@@ -122,3 +122,11 @@ button{
 }
 
 /* Weekly/Yearly Income output container */
+.weekly-income-output{
+    border: solid #49F2B6 2px;
+    width: 560px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
