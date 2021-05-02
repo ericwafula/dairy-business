@@ -47,10 +47,25 @@
     background: rgba(255, 255, 255, .9);
     width: 50%;
     box-sizing: border-box;
+    padding-top: 80px;
+    padding-left: 60px;
 }
 
 /* Styles the heading in the left container */
 .left > h1{
     color: #1768D3;
     font-size: 54px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styles the button */
+button{
+    color: #1768D3;
+    background-color: #49F2B6;
+    border-style: none;
+    width: 250px;
+    height: 80px;
+    font-size: 36px;
+    margin-top: 40px;
+    border-radius: 5px;
 }
