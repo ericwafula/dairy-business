@@ -131,3 +131,11 @@ button{
     border-radius: 5px;
     background-color: white;
 }
+
+/* Styles the second container's heading */
+.right > :nth-child(3){
+    font-size: 36px;
+    color: #1768D3;
+    margin-top: 160px;
+}
+
