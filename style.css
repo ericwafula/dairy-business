@@ -102,3 +102,14 @@ button{
     border-radius: 5px;
 }
 
+/* ##### RIGHT INNER SECTION ##### */
+.right{
+    background: rgba(255, 255, 255, .9);
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    border-left: solid #1768D3 25px;
+}
+
