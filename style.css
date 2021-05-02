@@ -40,6 +40,7 @@
 /* Adds a background image to the body */
 .body{
     background-image: url(./images/background.jpg);
+    background-attachment: fixed;
     display: flex;
     justify-content: space-between;
     background-repeat: no-repeat;
