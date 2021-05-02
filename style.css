@@ -33,6 +33,17 @@
     margin-bottom: -600px;
 }
 
+/* ######### BODY ######### */
+/* Adds a background image to the body */
 .body{
     background-image: url(./images/background.jpg);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Styles the left container */
+.left{
+    background: rgba(255, 255, 255, .9);
+    
 }
