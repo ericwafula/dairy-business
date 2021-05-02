@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 /* ##### HEADER ###### */
@@ -11,6 +10,7 @@
     background-color: #49F2B6;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 /* Styles the heading */
@@ -20,6 +20,7 @@
     padding-left: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-weight: bold;
 }
 
 /* Creates a circle */
@@ -31,6 +32,8 @@
     margin-top: -60px;
     margin-right: -120px;
     margin-bottom: -600px;
+
+    /* z-index: 1; */
 }
 
 /* ######### BODY ######### */
@@ -39,16 +42,20 @@
     background-image: url(./images/background.jpg);
     display: flex;
     justify-content: space-between;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+/* ###### LEFT INNER SECTION ###### */
 /* Styles the left container */
 .left{
     background: rgba(255, 255, 255, .9);
     width: 50%;
     box-sizing: border-box;
     padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 60px;
+    border-right: solid #1768D3 25px;
 }
 
 /* Styles the heading in the left container */
@@ -63,7 +70,7 @@ button{
     color: #1768D3;
     background-color: #49F2B6;
     border-style: none;
-    width: 250px;
+    width: 280px;
     height: 80px;
     font-size: 36px;
     margin-top: 80px;
@@ -75,5 +82,23 @@ button{
     font-size: 36px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 160px;
+}
+
+/* Styles the subheading's last sentence */
+.left > :nth-child(4){
+    font-size: 64px;
+    color: #1768D3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* Styles the output container */
+.sheds-output-container{
+    border: solid #49F2B6 2px;
+    width: 560px;
+    height: 290px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
 }
 
