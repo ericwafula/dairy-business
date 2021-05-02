@@ -1,7 +1,7 @@
 // Global Variables
 let input = document.getElementById("input");
 
-let selling_price = input.value; //cost of milk per litre
+let selling_price = 45; //cost of milk per litre
 let shedsProduction = [510, 308, 486, 572];
 let shedsName = ["A", "B", "C", "D"];
 
@@ -34,7 +34,7 @@ let emptyArray = function(){
 let totalProduction = function(){
     for (let i = 0; i < shedsProduction.length; i++){
         totalLitres = totalLitres + shedsProduction[i];
-        
+
         let div = document.createElement('div');
         div.innerHTML = `<p>Your production in Shed ${shedsName[i]} is ${shedsProduction[i]}</p>`;
 
