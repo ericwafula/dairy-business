@@ -45,5 +45,12 @@
 /* Styles the left container */
 .left{
     background: rgba(255, 255, 255, .9);
-    
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* Styles the heading in the left container */
+.left > h1{
+    color: #1768D3;
+    font-size: 54px;
 }
