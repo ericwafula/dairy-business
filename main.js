@@ -24,17 +24,12 @@ let weeklyIncome = document.getElementById("weekly-income-output");
 // gets the monthly income's paragraph and stores it
 let monthlyIncome = document.getElementById("monthly-income-container");
 
-
-let emptyArray = function(){
-    shedsProduction = [];
-    shedsName = [];
-}
-
 // Calculates total production in litres per day
 let totalProduction = function(){
     for (let i = 0; i < shedsProduction.length; i++){
         totalLitres = totalLitres + shedsProduction[i];
 
+        // creates a div element and outputs the data on the screen
         let div = document.createElement('div');
         div.innerHTML = `<p>Your production in Shed ${shedsName[i]} is ${shedsProduction[i]}</p>`;
 
@@ -65,12 +60,13 @@ let incomeOverTime = function income(selling_price){
     yearlyTotal = year * selling_price * totalLitres;
     
 
+    // creates a div element and outputs the data on the screen
     let div3 = document.createElement('div');
         div3.innerHTML = `<p>Your weekly income will be Ksh ${weeklyTotal}</p>`;
 
         weeklyIncome.appendChild(div3);
 
-    
+    // creates a div element and outputs the data on the screen
     let div4 = document.createElement('div');
         div4.innerHTML = `<p>Your yearly income will be Ksh ${yearlyTotal}</p>`;
 
@@ -79,6 +75,7 @@ let incomeOverTime = function income(selling_price){
     // Iterates over the months object and prints the total amount of money to be made
     for (const [key, value] of Object.entries(months)) {
 
+        // creates a div element and outputs the data on the screen
         let div2 = document.createElement('div');
         div2.innerHTML = `<p>Your total income for  ${key} is ${value * totalLitres * selling_price}</p>`;
 
