@@ -58,8 +58,8 @@ let months = {January: 31, February: 29, March: 31, April: 30, May: 31, June: 30
 // calculate total income on a weekly, daily, monthly and yearly basis
 let incomeOverTime = function income(selling_price){      
     
-    let weeklyTotal = 1;
-    let yearlyTotal = 1;
+    let weeklyTotal;
+    let yearlyTotal;
 
     weeklyTotal = week * selling_price * totalLitres;
     yearlyTotal = year * selling_price * totalLitres;
